@@ -1,0 +1,43 @@
+/* The mobile menu panel */
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80%;
+  max-width: 320px;
+  background-color: #000;
+  z-index: 40;
+  padding: 6rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 9999;
+}
+
+.mobileMenu.open {
+  transform: translateX(0);
+}
+
+.navLink {
+  font-size: 1.25rem;
+  color: #a3a3a3;
+}
+
+.navLink:hover {
+  color: #f9f9f9;
+}
+
+/* In your CSS file */
+.bgCustomGradient {
+  background: linear-gradient(90deg, #fc004e 0%, #10cbe0 100%);
+}
+
+.hero_banner {
+  @media screen and (max-width: 767px) {
+    max-width: 107px;
+  }
+}
