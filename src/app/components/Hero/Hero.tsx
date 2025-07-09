@@ -69,7 +69,7 @@ export const Hero = () => {
           </p>
 
           <p className="mt:0 md:mt-[33px] text-[#ABABAB] text-[12px] font-(family-name:--font-figtree) font-medium text-center px-[25px] md:px-[0px] md:text-left text-center leading-[100%]">
-            By clicking "Get Started", you agree with Terms and Conditions,
+            By clicking &ldquo;Get Started, you agree with Terms and Conditions,
             Privacy Policy, Subscription Terms
           </p>
           <p className="mt-[15px] text-[#ABABAB] text-[10px] font-(family-name:--font-figtree) font-medium text-center md:text-left leading-[100%] relative top-[56px] md:top-[0px]">
