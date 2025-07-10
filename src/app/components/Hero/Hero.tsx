@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
     <section className="flex flex-col-reverse md:flex-row items-center gap-12 md:gap-8 py-10 md:py-15 pb-[0px] md:max-w-[1440px] mx-auto">
       {/* Left side: Text content */}
-      <div className="lg:max-w-[525px] md:max-w-[525px] text-center md:text-left relative -top-[98px] z-[9] md:top-0 md:z-auto relative !z-[9999]">
+      <div className="lg:max-w-[525px] md:max-w-[525px] text-center md:text-left relative -top-[98px] z-[9] md:top-0 md:z-auto relative md:!z-[9999]">
         <h1 className="font-(family-name:--font-urbanist) font-bold text-[25px] md:text-[35px] text-white leading-[120%] md:leading-[115%]pl-[5px] pr-[5px]">
           Want to Turn Social Media Into a Profitable Career?
         </h1>
